@@ -65,3 +65,15 @@ small {
     margin-top: 3rem;
     text-align: center;
 }
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    form {
+        width: 300px
+    }
+}
